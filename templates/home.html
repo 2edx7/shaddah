@@ -9,15 +9,28 @@
 </head>
 <body>
     <div class="container">
-        <h2 style="text-align: center;">مشكّل النص العربي</h2>
+        <!-- Header Logo -->
+         <img src="/static/logo.png" alt="logo" style="height: 100px; width: auto; display: block; margin: 0 auto;">
+        <h5 style="text-align: center; margin: 10px;">مشكّل النص العربي</h5>
         <textarea id="inputText" rows="4" placeholder="أدخل النص العربي هنا..."></textarea>
         <button id="diacritizeBtn">شكّل النص</button>
 
-        <h2>النص المشكّل:</h2>
+        <h3>النص المشكّل:</h3>
         <div class="result-container">
             <button id="copyBtn" title="نسخ النص">نسخ</button>
             <p id="resultText"></p>
         </div>
+
+        <!-- Footer / Credit -->
+        <p class="footer-text" style="text-align:center; margin-top:20px; font-size:0.7em; color:#707070;">
+            <img src="/static/favicon.png" alt="GitHub" style="width:16px; height:16px; vertical-align:middle;margin-left: 7px;">
+            تم تطوير هذا التطبيق بواسطة <strong>ممو عبدالرحمان</strong>.
+            <br>
+            <a href="https://github.com/neon-x-hub/shaddah" target="_blank" style="color:#61a5ed;">مشاهدة
+                المشروع
+                على GitHub</a>
+        </p>
+
     </div>
 
     <script src="/static/script.js"></script>
