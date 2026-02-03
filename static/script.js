@@ -27,7 +27,7 @@ function mergeInputPunctuation(input, output) {
                 result += input[inputIndex];
                 inputIndex++;
             } else {
-                result += '!'; // fallback
+                result += ''; // fallback
             }
         } else {
             result += char;
